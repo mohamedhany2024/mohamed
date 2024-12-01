@@ -13,14 +13,14 @@ function addNumber(number) {
         deleteNumber();        
     }
 
-    if (equation == "" && specialCharacters.includes(number)) {
+    if (equation == "" && spicalCharacters.includes(number)) {
         
     } else {
 
         equation = equation + number;
 
         resultDiv.innerText = equation;
-        
+
     }
 }
 
