@@ -2,7 +2,7 @@ const resultDiv = document.getElementById("resultDiv");
 
 var equation = "";
 
-const spicalCharacters = ["*", "/"];
+const spicalCharacters = ["*", "/", "+", "-"];
 
 
 function addNumber(number) {
